@@ -1,0 +1,735 @@
+{
+    "comments": {
+        "author": "Tim Schakel, UMCU",
+        "creator": "Manual",
+        "description": "B0 and B1 phantom test and analysis"
+    },
+    "metaformat": "20220701",
+    "results": {
+        "AcquisitionDateTime": {
+            "constraint_period": 180,
+            "description": "date and time of acquisition",
+            "display_level": 2,
+            "display_name": "DateTime",
+            "units": ""
+        },
+        "B0 Orientation": {
+            "description": "B0 Orientation",
+            "display_level": 2,
+            "display_name": "B0 Orientation",
+            "units": ""
+        },
+        "B0 SeriesDescription": {
+            "description": "B0 SeriesDescription",
+            "display_level": 2,
+            "display_name": "B0 SeriesDescription",
+            "units": ""
+        },
+        "B0 RMS d10_slice1": {
+            "description": "B0 RMS d10_slice1",
+            "display_level": 2,
+            "display_name": "B0 RMS d10_slice1",
+            "units": "ppm"
+        },
+        "B0 RMS d20_slice1": {
+            "description": "B0 RMS d20_slice1",
+            "display_level": 2,
+            "display_name": "B0 RMS d20_slice1",
+            "units": "ppm"
+        },
+        "B0 RMS d30_slice1": {
+            "description": "B0 RMS d30_slice1",
+            "display_level": 2,
+            "display_name": "B0 RMS d30_slice1",
+            "units": "ppm"
+        },
+        "B0 RMS d35_slice1": {
+            "description": "B0 RMS d35_slice1",
+            "display_level": 2,
+            "display_name": "B0 RMS d35_slice1",
+            "units": "ppm"
+        },
+        "B0 p5 _slice1": {
+            "description": "B0 p5 _slice1",
+            "display_level": 2,
+            "display_name": "B0 p5 _slice1",
+            "units": "ppm"
+        },
+        "B0 p25 _slice1": {
+            "description": "B0 p25 _slice1",
+            "display_level": 2,
+            "display_name": "B0 p25 _slice1",
+            "units": "ppm"
+        },
+        "B0 p50 _slice1": {
+            "description": "B0 p50 _slice1",
+            "display_level": 2,
+            "display_name": "B0 p50 _slice1",
+            "units": "ppm"
+        },
+        "B0 p75 _slice1": {
+            "description": "B0 p75 _slice1",
+            "display_level": 2,
+            "display_name": "B0 p75 _slice1",
+            "units": "ppm"
+        },
+        "B0 p95 _slice1": {
+            "description": "B0 p95 _slice1",
+            "display_level": 2,
+            "display_name": "B0 p95 _slice1",
+            "units": "ppm"
+        },
+        
+        "B0 RMS d10_slice2": {
+            "description": "B0 RMS d10_slice2",
+            "display_level": 2,
+            "display_name": "B0 RMS d10_slice2",
+            "units": "ppm"
+        },
+        "B0 RMS d20_slice2": {
+            "description": "B0 RMS d20_slice2",
+            "display_level": 2,
+            "display_name": "B0 RMS d20_slice2",
+            "units": "ppm"
+        },
+        "B0 RMS d30_slice2": {
+            "description": "B0 RMS d30_slice2",
+            "display_level": 2,
+            "display_name": "B0 RMS d30_slice2",
+            "units": "ppm"
+        },
+        "B0 RMS d35_slice2": {
+            "description": "B0 RMS d35_slice2",
+            "display_level": 2,
+            "display_name": "B0 RMS d35_slice2",
+            "units": "ppm"
+        },
+        "B0 p5 _slice2": {
+            "description": "B0 p5 _slice2",
+            "display_level": 2,
+            "display_name": "B0 p5 _slice2",
+            "units": "ppm"
+        },
+        "B0 p25 _slice2": {
+            "description": "B0 p25 _slice2",
+            "display_level": 2,
+            "display_name": "B0 p25 _slice2",
+            "units": "ppm"
+        },
+        "B0 p50 _slice2": {
+            "description": "B0 p50 _slice2",
+            "display_level": 2,
+            "display_name": "B0 p50 _slice2",
+            "units": "ppm"
+        },
+        "B0 p75 _slice2": {
+            "description": "B0 p75 _slice2",
+            "display_level": 2,
+            "display_name": "B0 p75 _slice2",
+            "units": "ppm"
+        },
+        "B0 p95 _slice2": {
+            "description": "B0 p95 _slice2",
+            "display_level": 2,
+            "display_name": "B0 p95 _slice2",
+            "units": "ppm"
+        },
+        
+        "B0 RMS d10_slice3": {
+            "description": "B0 RMS d10_slice3",
+            "display_level": 2,
+            "display_name": "B0 RMS d10_slice3",
+            "units": "ppm"
+        },
+        "B0 RMS d20_slice3": {
+            "description": "B0 RMS d20_slice3",
+            "display_level": 2,
+            "display_name": "B0 RMS d20_slice3",
+            "units": "ppm"
+        },
+        "B0 RMS d30_slice3": {
+            "description": "B0 RMS d30_slice3",
+            "display_level": 2,
+            "display_name": "B0 RMS d30_slice3",
+            "units": "ppm"
+        },
+        "B0 RMS d35_slice3": {
+            "description": "B0 RMS d35_slice3",
+            "display_level": 2,
+            "display_name": "B0 RMS d35_slice3",
+            "units": "ppm"
+        },
+        "B0 p5 _slice3": {
+            "description": "B0 p5 _slice3",
+            "display_level": 2,
+            "display_name": "B0 p5 _slice3",
+            "units": "ppm"
+        },
+        "B0 p25 _slice3": {
+            "description": "B0 p25 _slice3",
+            "display_level": 2,
+            "display_name": "B0 p25 _slice3",
+            "units": "ppm"
+        },
+        "B0 p50 _slice3": {
+            "description": "B0 p50 _slice3",
+            "display_level": 2,
+            "display_name": "B0 p50 _slice3",
+            "units": "ppm"
+        },
+        "B0 p75 _slice3": {
+            "description": "B0 p75 _slice3",
+            "display_level": 2,
+            "display_name": "B0 p75 _slice3",
+            "units": "ppm"
+        },
+        "B0 p95 _slice3": {
+            "description": "B0 p95 _slice3",
+            "display_level": 2,
+            "display_name": "B0 p95 _slice3",
+            "units": "ppm"
+        },
+        
+        "B0 RMS d10_slice4": {
+            "description": "B0 RMS d10_slice4",
+            "display_level": 2,
+            "display_name": "B0 RMS d10_slice4",
+            "units": "ppm"
+        },
+        "B0 RMS d20_slice4": {
+            "description": "B0 RMS d20_slice4",
+            "display_level": 2,
+            "display_name": "B0 RMS d20_slice4",
+            "units": "ppm"
+        },
+        "B0 RMS d30_slice4": {
+            "description": "B0 RMS d30_slice4",
+            "display_level": 2,
+            "display_name": "B0 RMS d30_slice4",
+            "units": "ppm"
+        },
+        "B0 RMS d35_slice4": {
+            "description": "B0 RMS d35_slice4",
+            "display_level": 2,
+            "display_name": "B0 RMS d35_slice4",
+            "units": "ppm"
+        },
+        "B0 p5 _slice4": {
+            "description": "B0 p5 _slice4",
+            "display_level": 2,
+            "display_name": "B0 p5 _slice4",
+            "units": "ppm"
+        },
+        "B0 p25 _slice4": {
+            "description": "B0 p25 _slice4",
+            "display_level": 2,
+            "display_name": "B0 p25 _slice4",
+            "units": "ppm"
+        },
+        "B0 p50 _slice4": {
+            "description": "B0 p50 _slice4",
+            "display_level": 2,
+            "display_name": "B0 p50 _slice4",
+            "units": "ppm"
+        },
+        "B0 p75 _slice4": {
+            "description": "B0 p75 _slice4",
+            "display_level": 2,
+            "display_name": "B0 p75 _slice4",
+            "units": "ppm"
+        },
+        "B0 p95 _slice4": {
+            "description": "B0 p95 _slice4",
+            "display_level": 2,
+            "display_name": "B0 p95 _slice4",
+            "units": "ppm"
+        },
+        
+        "B0 RMS d10_slice5": {
+            "description": "B0 RMS d10_slice5",
+            "display_level": 2,
+            "display_name": "B0 RMS d10_slice5",
+            "units": "ppm"
+        },
+        "B0 RMS d20_slice5": {
+            "description": "B0 RMS d20_slice5",
+            "display_level": 2,
+            "display_name": "B0 RMS d20_slice5",
+            "units": "ppm"
+        },
+        "B0 RMS d30_slice5": {
+            "description": "B0 RMS d30_slice5",
+            "display_level": 2,
+            "display_name": "B0 RMS d30_slice5",
+            "units": "ppm"
+        },
+        "B0 RMS d35_slice5": {
+            "description": "B0 RMS d35_slice5",
+            "display_level": 2,
+            "display_name": "B0 RMS d35_slice5",
+            "units": "ppm"
+        },
+        "B0 p5 _slice5": {
+            "description": "B0 p5 _slice5",
+            "display_level": 2,
+            "display_name": "B0 p5 _slice5",
+            "units": "ppm"
+        },
+        "B0 p25 _slice5": {
+            "description": "B0 p25 _slice5",
+            "display_level": 2,
+            "display_name": "B0 p25 _slice5",
+            "units": "ppm"
+        },
+        "B0 p50 _slice5": {
+            "description": "B0 p50 _slice5",
+            "display_level": 2,
+            "display_name": "B0 p50 _slice5",
+            "units": "ppm"
+        },
+        "B0 p75 _slice5": {
+            "description": "B0 p75 _slice5",
+            "display_level": 2,
+            "display_name": "B0 p75 _slice5",
+            "units": "ppm"
+        },
+        "B0 p95 _slice5": {
+            "description": "B0 p95 _slice5",
+            "display_level": 2,
+            "display_name": "B0 p95 _slice5",
+            "units": "ppm"
+        },
+        "B0 RMS phantom": {
+            "description": "B0 RMS phantom",
+            "display_level": 2,
+            "display_name": "B0 RMS phantom",
+            "units": "ppm"
+        },
+        "B0 p5 phantom": {
+            "description": "B0 p5 phantom",
+            "display_level": 2,
+            "display_name": "B0 p5 phantom",
+            "units": "ppm"
+        },
+        "B0 p25 phantom": {
+            "description": "B0 p25 phantom",
+            "display_level": 2,
+            "display_name": "B0 p25 phantom",
+            "units": "ppm"
+        },
+        "B0 p50 phantom": {
+            "description": "B0 p50 phantom",
+            "display_level": 2,
+            "display_name": "B0 p50 phantom",
+            "units": "ppm"
+        },
+        "B0 p75 phantom": {
+            "description": "B0 p75 phantom",
+            "display_level": 2,
+            "display_name": "B0 p75 phantom",
+            "units": "ppm"
+        },
+        "B0 p95 phantom": {
+            "description": "B0 p95 phantom",
+            "display_level": 2,
+            "display_name": "B0 p95 phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM Orientation": {
+            "description": "B0 NOSHIM Orientation",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM Orientation",
+            "units": ""
+        },
+        "B0 NOSHIM SeriesDescription": {
+            "description": "B0 NOSHIM SeriesDescription",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM SeriesDescription",
+            "units": ""
+        },
+        "B0 NOSHIM RMS d10_slice1": {
+            "description": "B0 NOSHIM RMS d10_slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d10_slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d20_slice1": {
+            "description": "B0 NOSHIM RMS d20_slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d20_slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d30_slice1": {
+            "description": "B0 NOSHIM RMS d30_slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d30_slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d35_slice1": {
+            "description": "B0 NOSHIM RMS d35_slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d35_slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 _slice1": {
+            "description": "B0 NOSHIM p5 _slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 _slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 _slice1": {
+            "description": "B0 NOSHIM p25 _slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 _slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 _slice1": {
+            "description": "B0 NOSHIM p50 _slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 _slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 _slice1": {
+            "description": "B0 NOSHIM p75 _slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 _slice1",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 _slice1": {
+            "description": "B0 NOSHIM p95 _slice1",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 _slice1",
+            "units": "ppm"
+        },
+        
+        "B0 NOSHIM RMS d10_slice2": {
+            "description": "B0 NOSHIM RMS d10_slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d10_slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d20_slice2": {
+            "description": "B0 NOSHIM RMS d20_slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d20_slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d30_slice2": {
+            "description": "B0 NOSHIM RMS d30_slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d30_slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d35_slice2": {
+            "description": "B0 NOSHIM RMS d35_slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d35_slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 _slice2": {
+            "description": "B0 NOSHIM p5 _slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 _slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 _slice2": {
+            "description": "B0 NOSHIM p25 _slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 _slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 _slice2": {
+            "description": "B0 NOSHIM p50 _slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 _slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 _slice2": {
+            "description": "B0 NOSHIM p75 _slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 _slice2",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 _slice2": {
+            "description": "B0 NOSHIM p95 _slice2",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 _slice2",
+            "units": "ppm"
+        },
+        
+        "B0 NOSHIM RMS d10_slice3": {
+            "description": "B0 NOSHIM RMS d10_slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d10_slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d20_slice3": {
+            "description": "B0 NOSHIM RMS d20_slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d20_slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d30_slice3": {
+            "description": "B0 NOSHIM RMS d30_slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d30_slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d35_slice3": {
+            "description": "B0 NOSHIM RMS d35_slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d35_slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 _slice3": {
+            "description": "B0 NOSHIM p5 _slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 _slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 _slice3": {
+            "description": "B0 NOSHIM p25 _slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 _slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 _slice3": {
+            "description": "B0 NOSHIM p50 _slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 _slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 _slice3": {
+            "description": "B0 NOSHIM p75 _slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 _slice3",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 _slice3": {
+            "description": "B0 NOSHIM p95 _slice3",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 _slice3",
+            "units": "ppm"
+        },
+        
+        "B0 NOSHIM RMS d10_slice4": {
+            "description": "B0 NOSHIM RMS d10_slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d10_slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d20_slice4": {
+            "description": "B0 NOSHIM RMS d20_slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d20_slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d30_slice4": {
+            "description": "B0 NOSHIM RMS d30_slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d30_slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d35_slice4": {
+            "description": "B0 NOSHIM RMS d35_slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d35_slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 _slice4": {
+            "description": "B0 NOSHIM p5 _slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 _slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 _slice4": {
+            "description": "B0 NOSHIM p25 _slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 _slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 _slice4": {
+            "description": "B0 NOSHIM p50 _slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 _slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 _slice4": {
+            "description": "B0 NOSHIM p75 _slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 _slice4",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 _slice4": {
+            "description": "B0 NOSHIM p95 _slice4",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 _slice4",
+            "units": "ppm"
+        },
+        
+        "B0 NOSHIM RMS d10_slice5": {
+            "description": "B0 NOSHIM RMS d10_slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d10_slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d20_slice5": {
+            "description": "B0 NOSHIM RMS d20_slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d20_slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d30_slice5": {
+            "description": "B0 NOSHIM RMS d30_slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d30_slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS d35_slice5": {
+            "description": "B0 NOSHIM RMS d35_slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS d35_slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 _slice5": {
+            "description": "B0 NOSHIM p5 _slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 _slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 _slice5": {
+            "description": "B0 NOSHIM p25 _slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 _slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 _slice5": {
+            "description": "B0 NOSHIM p50 _slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 _slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 _slice5": {
+            "description": "B0 NOSHIM p75 _slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 _slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 _slice5": {
+            "description": "B0 NOSHIM p95 _slice5",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 _slice5",
+            "units": "ppm"
+        },
+        "B0 NOSHIM RMS phantom": {
+            "description": "B0 NOSHIM RMS phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM RMS phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p5 phantom": {
+            "description": "B0 NOSHIM p5 phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p5 phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p25 phantom": {
+            "description": "B0 NOSHIM p25 phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p25 phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p50 phantom": {
+            "description": "B0 NOSHIM p50 phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p50 phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p75 phantom": {
+            "description": "B0 NOSHIM p75 phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p75 phantom",
+            "units": "ppm"
+        },
+        "B0 NOSHIM p95 phantom": {
+            "description": "B0 NOSHIM p95 phantom",
+            "display_level": 2,
+            "display_name": "B0 NOSHIM p95 phantom",
+            "units": "ppm"
+        },
+        "B1 mean": {
+            "description": "B1 mean",
+            "display_level": 2,
+            "display_name": "B1 mean",
+            "units": "%",
+            "constraint_minlowhighmax": [
+                80,
+                90,
+                110,
+                120
+            ]
+        },
+        "B1 std": {
+            "description": "B1 std",
+            "display_level": 2,
+            "display_name": "B1 std",
+            "units": "%",
+            "constraint_minlowhighmax": [
+                null,
+                null,
+                5,
+                10
+            ]
+        },
+        "B1 figure": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 Figure1": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 Figure2": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 Figure3": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 Figure1": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 NOSHIM Figure1": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 NOSHIM Figure2": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        },
+        "B0 NOSHIM Figure3": {
+            "description": "",
+            "display_level": 2,
+            "display_name": "",
+            "units": ""
+        }
+    }
+}
+
+ 

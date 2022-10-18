@@ -1,0 +1,36 @@
+{
+  "actions": {
+    "acqdatetime": {
+      "filters": {
+      	"datetime_filter": {
+      		"PatientName": "CIRSEDP^CIRSEDP",
+        	"ImageType": "['ORIGINAL', 'PRIMARY', 'AXIAL']"
+        	}
+      	},
+      "params": {
+        "datetime_series_description": "t 2DFFE_B0"
+      }
+    },
+    "analysis": {
+    	"filters": {
+	    	"ct_series_type": "['ORIGINAL', 'PRIMARY', 'AXIAL']"
+    	},
+    	"params": {
+    	 "slicenumber": "2",
+    	 "canny_sigma": "3",
+         "canny_low_threshold": "200",
+    	 "angle1": "60",
+    	 "angle2": "120"
+    	}
+    }
+  },
+  "cfgformat": "20221017",
+  "comments": {
+    "author": "Tim Schakel, UMCU",
+    "description": "WADQC 2 module to analyze CT CIRS",
+    "version": "0.1",
+    "params": {
+      "datetime_series_description": "REQUIRED. Series description for retreiving datetime"
+    }
+  }
+}
