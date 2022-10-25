@@ -16,7 +16,7 @@ __author__ = 'tschakel'
 from wad_qc.module import pyWADinput
 
 import matplotlib
-#matplotlib.use('Agg') # Force matplotlib to not use any Xwindows backend.
+matplotlib.use('Agg') # Force matplotlib to not use any Xwindows backend.
 
 import CT_CIRS_lib
 
