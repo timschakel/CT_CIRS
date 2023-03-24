@@ -3,8 +3,12 @@
     "acqdatetime": {
       "filters": {
       	"datetime_filter": {
-      		"PatientName": "CIRSEDP^CIRSEDP",
+      		"PatientName": "CIRSEDP_PETCT^CIRSEDP_PETCT",
         	"ImageType": "['ORIGINAL', 'PRIMARY', 'AXIAL']"
+        	},
+        "datetime_filter_partial": {
+      		"PatientName": "CIRS",
+        	"ImageType": "['ORIGINAL', 'PRIMARY', 'AXIAL'"
         	}
       	},
       "params": {

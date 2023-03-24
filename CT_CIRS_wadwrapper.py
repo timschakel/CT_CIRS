@@ -9,14 +9,14 @@ Created on Mon May 30 09:25:48 2022
 __version__ = '20221017'
 __author__ = 'tschakel'
 
-# runfile('/nfs/arch11/researchData/USER/tschakel/projects/wadqc/QAtests/CT_CIRS/CT_CIRS_wadwrapper.py', args='-r results.json -c config/ct_cirs_config.json -d /nfs/arch11/researchData/USER/tschakel/projects/wadqc/QAtests/CT_CIRS/data/dataset1', wdir='/nfs/arch11/researchData/USER/tschakel/projects/wadqc/QAtests/CT_CIRS')
+# runfile('/smb/user/tschakel/BLD_RT_RESEARCH_DATA/USER/tschakel/projects/wadqc/QAtests/CT_CIRS/CT_CIRS_wadwrapper.py', args='-r results.json -c config/petct_cirs_config.json -d /smb/user/tschakel/BLD_RT_RESEARCH_DATA/USER/tschakel/projects/wadqc/QAtests/CT_CIRS/data/dataset1', wdir='/smb/user/tschakel/BLD_RT_RESEARCH_DATA/USER/tschakel/projects/wadqc/QAtests/CT_CIRS')
 
 
 # this will fail unless wad_qc is already installed
 from wad_qc.module import pyWADinput
 
 import matplotlib
-matplotlib.use('Agg') # Force matplotlib to not use any Xwindows backend.
+#matplotlib.use('Agg') # Force matplotlib to not use any Xwindows backend.
 
 import CT_CIRS_lib
 
